@@ -2,10 +2,10 @@ name: Simple Workflow
 on:
   push:
     branches:
-      - main
+      - SUBARU
 jobs:
   simple_job:
     runs-on: ubuntu-latest
     steps:
       - name: Print a message
-        run: echo "HELLOm2"
+        run: echo "SE NPRU"
